@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@600&family=Poppins:wght@600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Jost', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: black;
+    min-height: 100vh;
+}
+header{
+    background-color: black;
+    display: flex;
+    height: 100px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+.main-adder{
+    padding-top: 10px;
+    background-color: rgb(0, 0, 0);
+    height: 50px;
+    text-align: center;
+    
+}
+.rem{
+    height: 40px;
+    width: 60px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    text-align: center;
+    font-weight: bold;
+}
+.title{
+    color: white;
+}
+.do{
+    color: rgb(217, 255, 0);
+}
+#main-tx{
+    height: 50px;
+    width: 50vw;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 0px 20px;
+    background-color: rgb(35, 35, 35);
+    color: white;
+    font-size: 15px;
+    
+}
+#main-but{
+    height: 50px;
+    width: 15vw;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    color: black;
+    font-size: 15px;
+    background-color: white;
+
+    
+    
+}
+
+.res{
+    padding: 30px;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.card{
+    background-color: rgb(33, 33, 33);
+    height: 50px;
+    width: 500px;
+    margin: 20px;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    padding: 0px 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+footer{
+    background-color: rgb(26, 26, 26);
+    height: 10vh;
+}
+#remove{
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
